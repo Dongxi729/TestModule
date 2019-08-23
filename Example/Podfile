@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ZDXTestDemo_Tests' do
+  pod 'ZDXTestDemo', :path => '../'
+  
+  
+end
