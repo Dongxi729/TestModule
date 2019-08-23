@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2609CFCE230FE13E0022C210 /* TestLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 2609CFCC230FE13E0022C210 /* TestLog.h */; };
+		2609CFCF230FE13E0022C210 /* TestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2609CFCD230FE13E0022C210 /* TestLog.m */; };
 		346524D1BC3C9921DF242CFD0184D564 /* ZDXTestDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10462811EF3D0AB5F2F188D42BAB9104 /* ZDXTestDemo-dummy.m */; };
 		36C52D4B947660DC7CCEC7EF5FA99520 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 579E8D1DE3C5F0156CBF18AFAA456623 /* ReplaceMe.m */; };
 		55EFB04B3EFF94ED9D667ED141102795 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -29,16 +31,18 @@
 /* Begin PBXFileReference section */
 		10462811EF3D0AB5F2F188D42BAB9104 /* ZDXTestDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZDXTestDemo-dummy.m"; sourceTree = "<group>"; };
 		25790468A26A6C3A7593766503EAC548 /* Pods-ZDXTestDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZDXTestDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2609CFCC230FE13E0022C210 /* TestLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLog.h; sourceTree = "<group>"; };
+		2609CFCD230FE13E0022C210 /* TestLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLog.m; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		441E091C9C24B4BD1588CFE6CD8672B6 /* ZDXTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZDXTestDemo.framework; path = ZDXTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		441E091C9C24B4BD1588CFE6CD8672B6 /* ZDXTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZDXTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C8E44BEF94BCB0529AE2A836743619 /* Pods-ZDXTestDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZDXTestDemo_Tests-dummy.m"; sourceTree = "<group>"; };
 		563F9BE5BE84F36E63CB7A215B9C98AF /* Pods-ZDXTestDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZDXTestDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		579E8D1DE3C5F0156CBF18AFAA456623 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZDXTestDemo/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		5F659332DA5B372A734C804FE1F8CB03 /* Pods_ZDXTestDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZDXTestDemo_Tests.framework; path = "Pods-ZDXTestDemo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DE07C07C7008EB13EE9C6621F8F3B0E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5F659332DA5B372A734C804FE1F8CB03 /* Pods_ZDXTestDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZDXTestDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE07C07C7008EB13EE9C6621F8F3B0E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		74D54A983ECB644AB90C96228850789F /* Pods-ZDXTestDemo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZDXTestDemo_Tests-Info.plist"; sourceTree = "<group>"; };
-		88A7BEEA6E70D02135B5187E28F09D0D /* ZDXTestDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZDXTestDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		88A7BEEA6E70D02135B5187E28F09D0D /* ZDXTestDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZDXTestDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5CB6885BADDFCA7C64F07640EBCB562 /* Pods-ZDXTestDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDXTestDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B516A14B4E34F893A770DB7FA9E34E0B /* ZDXTestDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZDXTestDemo-umbrella.h"; sourceTree = "<group>"; };
 		C74ECF80C76D7D67EA84177F61CEECA6 /* Pods-ZDXTestDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZDXTestDemo_Tests.modulemap"; sourceTree = "<group>"; };
@@ -49,7 +53,7 @@
 		DB3409CCABFBAA5A31E3DFCE89E2F64C /* ZDXTestDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZDXTestDemo-prefix.pch"; sourceTree = "<group>"; };
 		EA59128D8D5DB7F4950A730EC946F67F /* Pods-ZDXTestDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDXTestDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EEB4251239EFBE004E585847B227F6D2 /* Pods-ZDXTestDemo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZDXTestDemo_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		FF970341D32652BFA376D4A4DA13CED3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FF970341D32652BFA376D4A4DA13CED3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,8 @@
 				579E8D1DE3C5F0156CBF18AFAA456623 /* ReplaceMe.m */,
 				1258A2306506538C9A6A38D8268695FA /* Pod */,
 				12C9EDB2D85D0FDB7CEAA00D905BA5BD /* Support Files */,
+				2609CFCC230FE13E0022C210 /* TestLog.h */,
+				2609CFCD230FE13E0022C210 /* TestLog.m */,
 			);
 			name = ZDXTestDemo;
 			path = ../..;
@@ -192,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2B94BA2990EF51D52247D7BB775FC9F /* Pods-ZDXTestDemo_Tests-umbrella.h in Headers */,
+				2609CFCE230FE13E0022C210 /* TestLog.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2609CFCF230FE13E0022C210 /* TestLog.m in Sources */,
 				C6AEBB722DB72E142CA7003F18EF7AA5 /* Pods-ZDXTestDemo_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,8 +466,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
