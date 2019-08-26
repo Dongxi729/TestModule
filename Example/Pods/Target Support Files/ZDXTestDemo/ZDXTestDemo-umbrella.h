@@ -10,7 +10,9 @@
 #endif
 #endif
 
+#import "Header.h"
 #import "TestLog.h"
+#import "TestV.h"
 
 FOUNDATION_EXPORT double ZDXTestDemoVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZDXTestDemoVersionString[];

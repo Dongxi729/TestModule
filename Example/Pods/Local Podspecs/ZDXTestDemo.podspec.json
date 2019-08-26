@@ -1,6 +1,6 @@
 {
   "name": "ZDXTestDemo",
-  "version": "1.0.6",
+  "version": "1.0.9",
   "summary": "A short description of ZDXTestDemo.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Dongxi729/TestModule",
@@ -13,15 +13,10 @@
   },
   "source": {
     "git": "https://github.com/Dongxi729/TestModule.git",
-    "tag": "1.0.6"
+    "tag": "1.0.9"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ZDXTestDemo/Classes/**/*",
-  "resource_bundles": {
-    "ZDXTestDemo": [
-      "ZDXTestDemo/Assets/*.png"
-    ]
-  }
+  "source_files": "ZDXTestDemo/Classes/**/*"
 }

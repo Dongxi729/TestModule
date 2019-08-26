@@ -10,5 +10,6 @@
 #define Header_h
 
 #import "TestV.h"
+#import "TestLog.h"
 
 #endif /* Header_h */
