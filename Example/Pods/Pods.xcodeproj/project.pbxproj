@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		22AB2CEB437AFAA6E63AF72433C0E544 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2647C8C32313B82A000C2CCF /* TestV.m in Sources */ = {isa = PBXBuildFile; fileRef = 2647C8C12313B82A000C2CCF /* TestV.m */; };
+		2647C8C42313B82A000C2CCF /* TestV.h in Headers */ = {isa = PBXBuildFile; fileRef = 2647C8C22313B82A000C2CCF /* TestV.h */; };
 		A80070127E38CD252D9C915EC29A6CBF /* ZDXTestDemo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 34FA43AD2B124C9B488505884A3EDA53 /* ZDXTestDemo.bundle */; };
 		C6AEBB722DB72E142CA7003F18EF7AA5 /* Pods-ZDXTestDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C8E44BEF94BCB0529AE2A836743619 /* Pods-ZDXTestDemo_Tests-dummy.m */; };
 		D36D62055C364B36824E369FAABA6216 /* TestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CECF86CBC6DBFAC9C2B36DE3FD1FE4 /* TestLog.m */; };
@@ -37,27 +39,29 @@
 
 /* Begin PBXFileReference section */
 		25790468A26A6C3A7593766503EAC548 /* Pods-ZDXTestDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZDXTestDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2647C8C12313B82A000C2CCF /* TestV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestV.m; path = ZDXTestDemo/Classes/TestV.m; sourceTree = "<group>"; };
+		2647C8C22313B82A000C2CCF /* TestV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestV.h; path = ZDXTestDemo/Classes/TestV.h; sourceTree = "<group>"; };
 		2A6763E9830E8DF6C4022D12F9190F88 /* ZDXTestDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZDXTestDemo-Info.plist"; sourceTree = "<group>"; };
 		2F0031120F7A133DBC05809EFD94C2BA /* ZDXTestDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZDXTestDemo.modulemap; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34FA43AD2B124C9B488505884A3EDA53 /* ZDXTestDemo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZDXTestDemo.bundle; path = "ZDXTestDemo-ZDXTestDemo.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FA43AD2B124C9B488505884A3EDA53 /* ZDXTestDemo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDXTestDemo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA79115253305C612A5666FD2579BD7 /* ZDXTestDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZDXTestDemo-prefix.pch"; sourceTree = "<group>"; };
 		40D30274971705BCD05F0485DA0BA607 /* ZDXTestDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZDXTestDemo.xcconfig; sourceTree = "<group>"; };
-		441E091C9C24B4BD1588CFE6CD8672B6 /* ZDXTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZDXTestDemo.framework; path = ZDXTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		441E091C9C24B4BD1588CFE6CD8672B6 /* ZDXTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZDXTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46CECF86CBC6DBFAC9C2B36DE3FD1FE4 /* TestLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestLog.m; path = ZDXTestDemo/Classes/TestLog.m; sourceTree = "<group>"; };
 		51C8E44BEF94BCB0529AE2A836743619 /* Pods-ZDXTestDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZDXTestDemo_Tests-dummy.m"; sourceTree = "<group>"; };
 		563F9BE5BE84F36E63CB7A215B9C98AF /* Pods-ZDXTestDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZDXTestDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5F659332DA5B372A734C804FE1F8CB03 /* Pods_ZDXTestDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZDXTestDemo_Tests.framework; path = "Pods-ZDXTestDemo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6864C0A185EA687BBFE7AED2EE23CA07 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5F659332DA5B372A734C804FE1F8CB03 /* Pods_ZDXTestDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZDXTestDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6864C0A185EA687BBFE7AED2EE23CA07 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		74D54A983ECB644AB90C96228850789F /* Pods-ZDXTestDemo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZDXTestDemo_Tests-Info.plist"; sourceTree = "<group>"; };
 		84A9044631C3FF64A2AF9FB98063384E /* ResourceBundle-ZDXTestDemo-ZDXTestDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZDXTestDemo-ZDXTestDemo-Info.plist"; sourceTree = "<group>"; };
-		86808B6741DCCDC2A34756DA13206456 /* ZDXTestDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZDXTestDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		86808B6741DCCDC2A34756DA13206456 /* ZDXTestDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZDXTestDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		90B79241484DC6690C1DE3A46648F46E /* ZDXTestDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZDXTestDemo-dummy.m"; sourceTree = "<group>"; };
 		979AD840CED90EA05E0EAFA065EE89DD /* ZDXTestDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZDXTestDemo-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5CB6885BADDFCA7C64F07640EBCB562 /* Pods-ZDXTestDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDXTestDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C74ECF80C76D7D67EA84177F61CEECA6 /* Pods-ZDXTestDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZDXTestDemo_Tests.modulemap"; sourceTree = "<group>"; };
-		C8351C31C5B345AF3EDE0D48B397D9C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C8351C31C5B345AF3EDE0D48B397D9C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D740EE95157E4D34CBF12BFDEFF145C7 /* Pods-ZDXTestDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZDXTestDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EA59128D8D5DB7F4950A730EC946F67F /* Pods-ZDXTestDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDXTestDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EEB4251239EFBE004E585847B227F6D2 /* Pods-ZDXTestDemo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZDXTestDemo_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -114,6 +118,8 @@
 			children = (
 				FA04B3AB23DE839B6B0E6FFAFF01803D /* TestLog.h */,
 				46CECF86CBC6DBFAC9C2B36DE3FD1FE4 /* TestLog.m */,
+				2647C8C22313B82A000C2CCF /* TestV.h */,
+				2647C8C12313B82A000C2CCF /* TestV.m */,
 				23C78B1AA3B2B297AD626C70CA81691C /* Pod */,
 				F98AECB149271CEE9929F6703AF75D38 /* Support Files */,
 			);
@@ -206,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2B94BA2990EF51D52247D7BB775FC9F /* Pods-ZDXTestDemo_Tests-umbrella.h in Headers */,
+				2647C8C42313B82A000C2CCF /* TestV.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2647C8C32313B82A000C2CCF /* TestV.m in Sources */,
 				C6AEBB722DB72E142CA7003F18EF7AA5 /* Pods-ZDXTestDemo_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,8 +466,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
