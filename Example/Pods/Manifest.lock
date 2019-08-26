@@ -1,5 +1,5 @@
 PODS:
-  - ZDXTestDemo (1.0.9)
+  - ZDXTestDemo (1.1.0)
 
 DEPENDENCIES:
   - ZDXTestDemo (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZDXTestDemo: 7a6cf8d1eeede23240942364586f7cc46020ebc1
+  ZDXTestDemo: 702d512f5b3dd1ebb763a1560a92e9819db52bc7
 
 PODFILE CHECKSUM: 338e590ff329b2afae619a07171d30018f5bfe93
 
