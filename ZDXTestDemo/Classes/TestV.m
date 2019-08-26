@@ -9,17 +9,11 @@
 
 @implementation TestV
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
-- (instancetype)init
+- (instancetype)initWithFrame:(CGRect)frame
 {
-    self = [super init];
+    self = [super initWithFrame:frame];
     if (self) {
+        
         UIView *img = [[UIView alloc] initWithFrame:self.frame];
         img.backgroundColor = UIColor.redColor;
         [self addSubview:img];

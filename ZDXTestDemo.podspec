@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZDXTestDemo'
-  s.version          = '1.0.6'
+  s.version          = '1.0.8'
   s.summary          = 'A short description of ZDXTestDemo.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/Dongxi729/TestModule'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '18259129536@163.com' => '19259129536@163.com' }
+  s.author           = { '18259129536@163.com' => '18259129536@163.com' }
   s.source           = { :git => 'https://github.com/Dongxi729/TestModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
